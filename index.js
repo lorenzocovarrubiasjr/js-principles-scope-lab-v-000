@@ -20,3 +20,8 @@ function leastFavoriteCustomer() {
   const leastFavoriteCustomer = "not me";
   return leastFavoriteCustomer
 }
+
+function changeLeastFavoriteCustomer(change) {
+  leastFavoriteCustomer = change;
+  return leastFavoriteCustomer;
+}
