@@ -11,6 +11,7 @@ function setBestCustomer() {
    return bestCustomer;
 }
 
-function overwriteBestCustomer() {
-  bestCustomer
+function overwriteBestCustomer(a) {
+  bestCustomer = a;
+  return bestCustomer;
 }
