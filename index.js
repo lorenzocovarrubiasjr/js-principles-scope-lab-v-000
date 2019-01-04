@@ -21,7 +21,7 @@ function leastFavoriteCustomer() {
   return leastFavoriteCustomer
 }
 
-function changeLeastFavoriteCustomer(change) {
-  leastFavoriteCustomer = change;
+function changeLeastFavoriteCustomer() {
+  leastFavoriteCustomer = "def not me";
   return leastFavoriteCustomer;
 }
